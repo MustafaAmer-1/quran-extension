@@ -393,8 +393,8 @@ $(document).ready(function(){
   }
 
   function setVerse(data){
-        $(".verse").html('<div class="verse-text">' + data.text + '</div><div class="verse-details">' + data.surah.name +
-                            " - " + data.numberInSurah + '</div>').animate({opacity: 1}, 500);
+        $(".verse").html('<div class="verse-text">' + data.text + '<span class="verse-details">' + '&nbsp;&nbsp;(' + data.surah.name +
+                            " - " + data.numberInSurah + ')' + '</span></div>').animate({opacity: 1}, 500);
   }
 
   function calculateTimeout(){

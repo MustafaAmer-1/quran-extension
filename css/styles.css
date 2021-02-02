@@ -25,7 +25,7 @@ body {
 }
 
 .background-image {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   min-width: 100%;
@@ -87,6 +87,7 @@ body {
 
 .verse-details, .bismillah {
   font-size: 20px;
+  white-space: nowrap;
 }
 
 .audio-player {
